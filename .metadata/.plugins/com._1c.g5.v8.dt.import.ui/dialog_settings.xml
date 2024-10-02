@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="1C:Enterprise_Development_Tools_ImportExternalObjectWizard">
+	</section>
+	<section name="1C:Enterprise_Development_Tools_ImportConfigurationWizard">
+		<section name="dirSourcePaths">
+			<item key="historyEntryCount" value="1"/>
+			<item key="historyEntry_0" value="C:\git\ExpertOnec"/>
+		</section>
+		<section name="zipSourcePaths">
+		</section>
+	</section>
+</section>

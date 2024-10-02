@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3004203e-d5ec-4bdd-b180-e68616fdf8e3">
+  <producedTypes>
+    <selectionType typeId="4f377e9e-7f9e-41ff-80a3-5fb7d219284a" valueTypeId="304f7e54-e40f-44ea-b320-108480a4e923"/>
+    <listType typeId="30a6b959-8eb1-4042-8899-b96ed5e671ac" valueTypeId="974244e2-3737-471a-ad17-62a860ea887e"/>
+    <managerType typeId="803b63ff-9159-4066-b472-afd17f25d8cf" valueTypeId="3cf6bd55-a762-4b77-9c11-34ba2f68577c"/>
+    <recordSetType typeId="7c5a3309-9b6c-44a5-b2ba-354da6af6a71" valueTypeId="9d2be81f-9c38-4bbd-8752-0b2ac5a75fab"/>
+    <recordKeyType typeId="4303bf98-c25e-49c8-a539-ea045f47670e" valueTypeId="d26af4ce-18c2-477b-8167-aac884e9e2d9"/>
+    <recordType typeId="d0f5c4ba-a86d-4a00-be55-f57572ee7510" valueTypeId="285cb523-832a-476f-80c3-1771b6158099"/>
+    <recordManagerType typeId="6dacbd79-50f0-471f-bc57-8912efa7725b" valueTypeId="2f21e746-5fe8-4147-947b-a79a3fc93987"/>
+  </producedTypes>
+  <name>НепереодическиеСведения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Непереодические сведения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="3f430182-9c83-4528-816c-e6d8389a1d86">
+    <name>Ресурс1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b1b31de1-60e3-4904-a69c-20deeb814a42">
+    <name>Измерение1</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
